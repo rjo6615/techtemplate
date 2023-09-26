@@ -3,23 +3,19 @@ import { BrowserRouter as Router,  Route,  Routes,  Navigate} from "react-router
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Home from "./components/Home";
-// import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
-// import About from "./components/About";
-// import Services from "./components/Services";
-// import RequestAQuote from './components/RequestAQuote';
-
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
     <Router>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
     </Router>
     </div>
   );
