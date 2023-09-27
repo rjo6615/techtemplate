@@ -1,12 +1,13 @@
 function Footer() {
     return(    
-<div class="container my-5">
+<div class="my-5">  
+{/* add container to class to bring in margins */}
   <footer
           class="text-center text-lg-start text-white"
           style={{backgroundColor: "#1d3557"}}
           >
     <section
-             class="d-flex justify-content-between p-4"
+             class="d-flex justify-content-center p-4"
              style={{backgroundColor: "#457b9d"}}
              >
       <div class="me-5">
@@ -106,8 +107,7 @@ function Footer() {
          >
       © 2020 Copyright:
       <a class="text-white" href="https://mdbootstrap.com/"
-         >MDBootstrap.com</a
-        >
+         >MDBootstrap.com</a>
     </div>
   </footer>
 </div>

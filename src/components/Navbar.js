@@ -36,8 +36,8 @@ function NavbarComponent() {
     <div className="w-100 d-lg-none"></div> {/* Spacer for small screens */}
     <Navbar.Collapse>
       <Nav className="me-auto">
-        <Nav.Link className="mx-3" href="#home">Home</Nav.Link>
-        <Nav.Link className="mx-3" href="#features">About</Nav.Link>
+        <Nav.Link className="mx-3" href="/">Home</Nav.Link>
+        <Nav.Link className="mx-3" href="/about">About</Nav.Link>
         <Nav.Link className="mx-3" href="#pricing">Shop</Nav.Link>
         <Nav.Link className="mx-3" href="#contact">Contact</Nav.Link>
       </Nav>
